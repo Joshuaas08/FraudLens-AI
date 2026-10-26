@@ -1,0 +1,24 @@
+{
+  "name": "fraudlens-ai",
+  "version": "1.0.0",
+  "description": "FraudLens AI - Unified Financial Risk Intelligence Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "test": "cd server && npm test"
+  },
+  "keywords": [
+    "fintech",
+    "fraud-detection",
+    "exasol",
+    "reconciliation",
+    "risk-intelligence",
+    "explainable-ai"
+  ],
+  "author": "FraudLens AI Team",
+  "license": "MIT"
+}
